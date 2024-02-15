@@ -1,16 +1,16 @@
-dishonored.actor.abilities.mana: Mana Points
+dishonored.actor.abilities.mana: Punti Mana
 dishonored.actor.abilities.title: Abilità
-dishonored.actor.belonging.armor.protect: Protect
-dishonored.actor.belonging.armor.protection: Protection
-dishonored.actor.belonging.armor.title: Armor Name
-dishonored.actor.belonging.bonecharm.title: Bonecharm Name
-dishonored.actor.belonging.collectable.bonecharm: Bonecharms
-dishonored.actor.belonging.collectable.coin: Coins
-dishonored.actor.belonging.collectable.rune: Runes
-dishonored.actor.belonging.other.qty: Qty
-dishonored.actor.belonging.other.quantity: Quantity
-dishonored.actor.belonging.other.title: Item Name
-dishonored.actor.belonging.title: Belongings
+dishonored.actor.belonging.armor.protect: Protezione
+dishonored.actor.belonging.armor.protection: Protezione
+dishonored.actor.belonging.armor.title: Nome Armatura
+dishonored.actor.belonging.bonecharm.title: Nome Amuleto d' Osso
+dishonored.actor.belonging.collectable.bonecharm: Amuleti d' Osso
+dishonored.actor.belonging.collectable.coin: Monete
+dishonored.actor.belonging.collectable.rune: Rune
+dishonored.actor.belonging.other.qty: Qtà
+dishonored.actor.belonging.other.quantity: Quantità
+dishonored.actor.belonging.other.title: Nome Oggetto
+dishonored.actor.belonging.title: Proprietà
 dishonored.actor.belonging.weapon.armorpierce: Armor Piercing
 dishonored.actor.belonging.weapon.awkward: Awkward
 dishonored.actor.belonging.weapon.blast: Blast
@@ -50,33 +50,33 @@ dishonored.actor.note.title: Notes
 dishonored.actor.npc.incidental: Incidental
 dishonored.actor.npc.major: Major
 dishonored.actor.npc.minor: Minor
-dishonored.actor.npc.notable: Notable
-dishonored.actor.npc.types: NPC Type
+dishonored.actor.npc.notable: Notevole
+dishonored.actor.npc.types: Tipo di PNG
 dishonored.actor.power.mana: Mana
-dishonored.actor.power.rune: Rune
-dishonored.actor.power.title: Powers
-dishonored.actor.skill.fight: Fight
-dishonored.actor.skill.move: Move
-dishonored.actor.skill.name: Skill Name
-dishonored.actor.skill.study: Study
-dishonored.actor.skill.survive: Survive
-dishonored.actor.skill.talk: Talk
-dishonored.actor.skill.tinker: Tinker
-dishonored.actor.skill.title: Skills
-dishonored.actor.skisty.check: Perform Check
+dishonored.actor.power.rune: Runa
+dishonored.actor.power.title: Poteri
+dishonored.actor.skill.fight: Combattere
+dishonored.actor.skill.move: Muoversi
+dishonored.actor.skill.name: Nome Abilità
+dishonored.actor.skill.study: Studiare
+dishonored.actor.skill.survive: Sopravvivere
+dishonored.actor.skill.talk: Parlare
+dishonored.actor.skill.tinker: Armeggiare
+dishonored.actor.skill.title: Abilità
+dishonored.actor.skisty.check: Esegui Prova
 dishonored.actor.skisty.mod: Mod
-dishonored.actor.style.boldly: Boldly
-dishonored.actor.style.carefully: Carefully
-dishonored.actor.style.cleverly: Cleverly
-dishonored.actor.style.forcefully: Forcefully
-dishonored.actor.style.name: Style Name
-dishonored.actor.style.quietly: Quietly
-dishonored.actor.style.swiftly: Swiftly
-dishonored.actor.style.title: Styles
-dishonored.actor.talent.title: Talents
-dishonored.actor.talent.type: Type
+dishonored.actor.style.boldly: Audace
+dishonored.actor.style.carefully: Attento
+dishonored.actor.style.cleverly: Ingegnoso
+dishonored.actor.style.forcefully: Prepotente
+dishonored.actor.style.name: Nome Stile
+dishonored.actor.style.quietly: Discreto
+dishonored.actor.style.swiftly: Rapido
+dishonored.actor.style.title: Stili
+dishonored.actor.talent.title: Talenti
+dishonored.actor.talent.type: Tipo
 dishonored.actor.truth.content: Content of Truth
-dishonored.actor.truth.title: Truths
+dishonored.actor.truth.title: Verità
 dishonored.apps.dicepoolwindow: Dice Pool
 dishonored.apps.focus: Focus Rating
 dishonored.apps.pool: Number of Dice in Pool
@@ -88,7 +88,7 @@ dishonored.contact.relation.neutral: Neutral
 dishonored.contact.relation.poor: Poor
 dishonored.item.armor.helmet: Is Helmet?
 dishonored.item.contact.send2actor: Send to Actor
-dishonored.item.truth: Truth
+dishonored.item.truth: Verità
 dishonored.migration.begin_migration: Performing data upgrades for Dishonored
 dishonored.migration.begin_schema: Applying updates for Dishonored schema v{version}
 dishonored.migration.completed_migration: Completed data updgrades for Dishonored
@@ -131,19 +131,19 @@ dishonored.settings.names.maxNumberOfExperience: Maximum amount of Experience
 dishonored.settings.names.momentumPermissionLevel: Momentum Tracker User Role
 dishonored.settings.names.multipleComplications: Multiple Complications
 dishonored.settings.names.send2ActorPermissionLevel: Send2Actor User Role
-dishonored.titles.createItem: Create Item
-dishonored.titles.deleteItem: Delete Item
-dishonored.titles.editItem: Edit Item
-dishonored.tracker.chaos: Chaos
+dishonored.titles.createItem: Crea Oggetto
+dishonored.titles.deleteItem: Elimina Oggetto
+dishonored.titles.editItem: Modifica Oggetto
+dishonored.tracker.chaos: Caos
 dishonored.tracker.momentum: Momentum
-TYPES.Actor.character: Character
-TYPES.Actor.npc: NPC
-TYPES.Item.armor: Armor
-TYPES.Item.bonecharm: Bonecharm
-TYPES.Item.contact: Contact
+TYPES.Actor.character: Personaggio
+TYPES.Actor.npc: PNG
+TYPES.Item.armor: Armatura
+TYPES.Item.bonecharm: Amuleto d' Osso
+TYPES.Item.contact: Contatto
 TYPES.Item.focus: Focus
-TYPES.Item.item: Item
-TYPES.Item.power: Power
-TYPES.Item.talent: Talent
-TYPES.Item.truth: Truth
-TYPES.Item.weapon: Weapon
+TYPES.Item.item: Oggetto
+TYPES.Item.power: Potere
+TYPES.Item.talent: Talento
+TYPES.Item.truth: Verità
+TYPES.Item.weapon: Arma
