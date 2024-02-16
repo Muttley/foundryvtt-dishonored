@@ -11,42 +11,42 @@ dishonored.actor.belonging.other.qty: Qtà
 dishonored.actor.belonging.other.quantity: Quantità
 dishonored.actor.belonging.other.title: Nome Oggetto
 dishonored.actor.belonging.title: Proprietà
-dishonored.actor.belonging.weapon.armorpierce: Armor Piercing
+dishonored.actor.belonging.weapon.armorpierce: Penetrazione Armatura
 dishonored.actor.belonging.weapon.awkward: Awkward
 dishonored.actor.belonging.weapon.blast: Blast
-dishonored.actor.belonging.weapon.block: Block
+dishonored.actor.belonging.weapon.block: Blocco
 dishonored.actor.belonging.weapon.burn: Burn
-dishonored.actor.belonging.weapon.concealed: Concealed
-dishonored.actor.belonging.weapon.damage: Damage
-dishonored.actor.belonging.weapon.distant: Distant
+dishonored.actor.belonging.weapon.concealed: Occultabile
+dishonored.actor.belonging.weapon.damage: Danno
+dishonored.actor.belonging.weapon.distant: Distante
 dishonored.actor.belonging.weapon.dmg: Dmg
-dishonored.actor.belonging.weapon.melee: Melee
-dishonored.actor.belonging.weapon.messy: Messy
-dishonored.actor.belonging.weapon.mine: Mine
-dishonored.actor.belonging.weapon.nearby: Nearby
-dishonored.actor.belonging.weapon.rangeddistant: Ranged (Distant)
-dishonored.actor.belonging.weapon.rangednearby: Ranged (Nearby)
-dishonored.actor.belonging.weapon.title: Weapon Name
-dishonored.actor.biography.title: Biography
-dishonored.actor.character.age: Age
-dishonored.actor.character.archetype: Archetype
-dishonored.actor.character.experience: Experience Track
-dishonored.actor.character.firstTruth: First Truth
-dishonored.actor.character.momentum: Momentum Track
-dishonored.actor.character.name: Name
-dishonored.actor.character.outlook: Outlook
-dishonored.actor.character.secondTruth: Second Truth
-dishonored.actor.character.stress: Stress Track
+dishonored.actor.belonging.weapon.melee: Corpo a Corpo
+dishonored.actor.belonging.weapon.messy: Caotica
+dishonored.actor.belonging.weapon.mine: Mina
+dishonored.actor.belonging.weapon.nearby: Ravvicinata
+dishonored.actor.belonging.weapon.rangeddistant: A Distanza (Distante)
+dishonored.actor.belonging.weapon.rangednearby: A Distanza (Ravvicinata)
+dishonored.actor.belonging.weapon.title: Nome Arma
+dishonored.actor.biography.title: Biografia
+dishonored.actor.character.age: Età
+dishonored.actor.character.archetype: Archetipo
+dishonored.actor.character.experience: Traccia Dell' Esperienza
+dishonored.actor.character.firstTruth: Prima Verità
+dishonored.actor.character.momentum: Traccia del Momentum
+dishonored.actor.character.name: Nome
+dishonored.actor.character.outlook: Temperamento
+dishonored.actor.character.secondTruth: Seconda Verità
+dishonored.actor.character.stress: Traccia dello Stress
 dishonored.actor.character.truth: Verità
-dishonored.actor.character.void: Void Points Track
-dishonored.actor.contact.relation: Relation
-dishonored.actor.contact.title: Contacts
+dishonored.actor.character.void: Traccia dei Punti Oblio
+dishonored.actor.contact.relation: Relazione
+dishonored.actor.contact.title: Contatti
 dishonored.actor.focus.rating: Rating
-dishonored.actor.focus.title: Focuses
+dishonored.actor.focus.title: Focus
 dishonored.actor.genericitem.cost: Value
-dishonored.actor.genericitem.name: Name
-dishonored.actor.item.adjectiveNew: New
-dishonored.actor.note.title: Notes
+dishonored.actor.genericitem.name: Nome
+dishonored.actor.item.adjectiveNew: Nuovo
+dishonored.actor.note.title: Note
 dishonored.actor.npc.incidental: Incidental
 dishonored.actor.npc.major: Major
 dishonored.actor.npc.minor: Minor
