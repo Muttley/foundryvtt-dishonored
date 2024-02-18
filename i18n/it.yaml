@@ -124,8 +124,8 @@ dishonored.roll.weapon.damage: '<b>|#|</b> Danno'
 dishonored.settings.hints.chaosPermissionLevel: Chi dovrebbe essere autorizzato a modificare la traccia del caos?
 dishonored.settings.hints.maxNumberOfExperience: Il massimo numero di esperienza che può essere assegnata ad un personaggio. 30 è predefinita, qualsiasi punto altre il 50 diventa pressoché illeggibile.
 dishonored.settings.hints.momentumPermissionLevel: Chi dovrebbe essere autorizzato a modificare la traccia del momentum?
-dishonored.settings.hints.multipleComplications: The rulebook states \"Any die which rolled 20 causes a complication\". This is slightly unclear and as of Version 8 of the PDF, this is still not clear - likely due to the incredible rarity. Enabling this will allow roles to display \"There were x Complications\" if multiple 20s are rolled. Disabling will just state a single complication.
-dishonored.settings.hints.send2ActorPermissionLevel: The contact item type has the ability to create an NPC, who should be allowed to see & use this functionality?
+dishonored.settings.hints.multipleComplications: Il manuale base dichiara \"Ogni dado con un risultato di 20 causa una complicazione\". Questo è leggermente poco chiaro anche a partire dalla versione 8 del PDF - probabilmente a causa della probabilità molto bassa. Abilitando questa opzione i ruoli potranno visualizzare \"Ci sono state x complicazioni\" se si sono ottenuti più 20. Disabilitando questa opzione verrà visualizzata una singola complicazione.
+dishonored.settings.hints.send2ActorPermissionLevel: Verrà creato un NPC a partire dal contatto, a chi dovrebbe essere consentito vedere e utilizzare questa funzionalità?
 dishonored.settings.names.chaosPermissionLevel: Traccia del Caos Ruolo Giocatore
 dishonored.settings.names.maxNumberOfExperience: Quantità massima di Esperienza
 dishonored.settings.names.momentumPermissionLevel: Traccia del Momentum Ruolo Giocatore
