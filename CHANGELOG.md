@@ -1,3 +1,12 @@
+# v1.1.0
+
+## Enhancements
+- [#21] Added Italian as a supported i18n language
+
+*Many thanks to Balian for their work on the Italian translation*
+
+---
+
 # v1.0.1
 
 ## Bugfixes

@@ -1,4 +1,4 @@
-import { DishonoredUpdateBase } from "../DishonoredUpdateBase";
+import { DishonoredUpdateBase } from "../DishonoredUpdateBase.mjs";
 
 export default class Update_240209_1 extends DishonoredUpdateBase {
 

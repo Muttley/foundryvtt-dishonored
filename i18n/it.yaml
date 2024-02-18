@@ -1,0 +1,149 @@
+dishonored.actor.abilities.mana: Punti Mana
+dishonored.actor.abilities.title: Abilità
+dishonored.actor.belonging.armor.protect: Protezione
+dishonored.actor.belonging.armor.protection: Protezione
+dishonored.actor.belonging.armor.title: Nome Armatura
+dishonored.actor.belonging.bonecharm.title: Nome Amuleto d' Osso
+dishonored.actor.belonging.collectable.bonecharm: Amuleti d' Osso
+dishonored.actor.belonging.collectable.coin: Monete
+dishonored.actor.belonging.collectable.rune: Rune
+dishonored.actor.belonging.other.qty: Qtà
+dishonored.actor.belonging.other.quantity: Quantità
+dishonored.actor.belonging.other.title: Nome Oggetto
+dishonored.actor.belonging.title: Proprietà
+dishonored.actor.belonging.weapon.armorpierce: Penetrazione Armatura
+dishonored.actor.belonging.weapon.awkward: Scomoda
+dishonored.actor.belonging.weapon.blast: Esplosiva
+dishonored.actor.belonging.weapon.block: Blocco
+dishonored.actor.belonging.weapon.burn: Incendiaria
+dishonored.actor.belonging.weapon.concealed: Occultabile
+dishonored.actor.belonging.weapon.damage: Danno
+dishonored.actor.belonging.weapon.distant: Distante
+dishonored.actor.belonging.weapon.dmg: Danno
+dishonored.actor.belonging.weapon.melee: Corpo a Corpo
+dishonored.actor.belonging.weapon.messy: Caotica
+dishonored.actor.belonging.weapon.mine: Mina
+dishonored.actor.belonging.weapon.nearby: Ravvicinata
+dishonored.actor.belonging.weapon.rangeddistant: A Distanza (Distante)
+dishonored.actor.belonging.weapon.rangednearby: A Distanza (Ravvicinata)
+dishonored.actor.belonging.weapon.title: Nome Arma
+dishonored.actor.biography.title: Biografia
+dishonored.actor.character.age: Età
+dishonored.actor.character.archetype: Archetipo
+dishonored.actor.character.experience: Traccia Dell' Esperienza
+dishonored.actor.character.firstTruth: Prima Verità
+dishonored.actor.character.momentum: Traccia del Momentum
+dishonored.actor.character.name: Nome
+dishonored.actor.character.outlook: Temperamento
+dishonored.actor.character.secondTruth: Seconda Verità
+dishonored.actor.character.stress: Traccia dello Stress
+dishonored.actor.character.truth: Verità
+dishonored.actor.character.void: Traccia dei Punti Oblio
+dishonored.actor.contact.relation: Relazione
+dishonored.actor.contact.title: Contatti
+dishonored.actor.focus.rating: Grado
+dishonored.actor.focus.title: Focus
+dishonored.actor.genericitem.cost: Valore
+dishonored.actor.genericitem.name: Nome
+dishonored.actor.item.adjectiveNew: Nuovo
+dishonored.actor.note.title: Note
+dishonored.actor.npc.incidental: Irrilevante
+dishonored.actor.npc.major: Maggiore
+dishonored.actor.npc.minor: Minore
+dishonored.actor.npc.notable: Notevole
+dishonored.actor.npc.types: Tipo di PNG
+dishonored.actor.power.mana: Mana
+dishonored.actor.power.rune: Runa
+dishonored.actor.power.title: Poteri
+dishonored.actor.skill.fight: Combattere
+dishonored.actor.skill.move: Muoversi
+dishonored.actor.skill.name: Nome Abilità
+dishonored.actor.skill.study: Studiare
+dishonored.actor.skill.survive: Sopravvivere
+dishonored.actor.skill.talk: Parlare
+dishonored.actor.skill.tinker: Armeggiare
+dishonored.actor.skill.title: Abilità
+dishonored.actor.skisty.check: Esegui Prova
+dishonored.actor.skisty.mod: Mod
+dishonored.actor.style.boldly: Audace
+dishonored.actor.style.carefully: Attento
+dishonored.actor.style.cleverly: Ingegnoso
+dishonored.actor.style.forcefully: Prepotente
+dishonored.actor.style.name: Nome Stile
+dishonored.actor.style.quietly: Discreto
+dishonored.actor.style.swiftly: Rapido
+dishonored.actor.style.title: Stili
+dishonored.actor.talent.title: Talenti
+dishonored.actor.talent.type: Tipo
+dishonored.actor.truth.content: Argomento della Verità
+dishonored.actor.truth.title: Verità
+dishonored.apps.dicepoolwindow: Pool di Dadi
+dishonored.apps.focus: Grado del Focus
+dishonored.apps.pool: Numero di Dadi nella Pool
+dishonored.apps.rolldice: Tiro di Dado
+dishonored.contact.relation.dire: Pessima
+dishonored.contact.relation.fair: Buona
+dishonored.contact.relation.great: Ottima
+dishonored.contact.relation.neutral: Neutrale
+dishonored.contact.relation.poor: Povera
+dishonored.item.armor.helmet: È un Elmo?
+dishonored.item.contact.send2actor: Crea un personaggio
+dishonored.item.truth: Verità
+dishonored.migration.begin_migration: Esecuzione degli aggiornamenti dei dati per Dishonored
+dishonored.migration.begin_schema: Applicazione dello schema di aggiornamenti per Dishonored v{version}
+dishonored.migration.completed_migration: Conclusione degli aggiornamenti dei dati per Dishonored
+dishonored.migration.completed_schema: Conclusione dell' applicazione dello schema degli aggiornamenti per Dishonored v{version}
+dishonored.notifications.armorAlreadyEquipped: Il personaggio attuale ha già un' armatura equipaggiata! Non succede nulla.
+dishonored.notifications.armorAlreadyEquippedNew: Il personaggio attuale ha già un' armatura equipaggiata! Aggiunta come non equipaggiata.
+dishonored.notifications.helmetAlreadyEquipped: Il personaggio attuale ha già un elmo equipaggiato! Non succede nulla.
+dishonored.notifications.macroActor:
+dishonored.notifications.macroDiceGreater: Non puoi tirare più di cinque dadi!
+dishonored.notifications.macroDiceLess: Devi tirare almeno un dado!
+dishonored.notifications.macroFocus: Un Focus non può essere inferiore ad 1!
+dishonored.notifications.macroSkill:
+dishonored.notifications.macroStyle: Per favore fornisci uno stile alla macro!
+dishonored.notifications.sendToActor: Un PNG con il nome <b>{name}</b> è stato creato!
+dishonored.notifications.tooManyBonecharms: Il personaggio attuale ha 3 amuleti d' osso equipaggiati! Non succede nulla.
+dishonored.notifications.tooManyBonecharmsNew: Il personaggio attuale ha 3 amuleti d' osso equipaggiati! Aggiunto come non equipaggiato.
+dishonored.roll.armor.protect: '<b>|#|</b> Protezione'
+dishonored.roll.complication: C'è stata una complicazione!
+dishonored.roll.complicationPlural: 'Ci sono state |#| complicazioni!'
+dishonored.roll.contact.relation: '<b>|#|</b> Relazione con Contatto'
+dishonored.roll.focus.rating: 'Focus con Grado <b>|#|</b>'
+dishonored.roll.html.focus: Focus
+dishonored.roll.html.target: Bersaglio
+dishonored.roll.item.quantity: "|#|x Oggetti"
+dishonored.roll.item.value: "|#| Monete"
+dishonored.roll.power.mana: 'Costa <b>|#|</b> Mana ad utilizzo'
+dishonored.roll.power.rune: '<b>|#|</b> Rune'
+dishonored.roll.success: Successo
+dishonored.roll.successPlural: Successi
+dishonored.roll.talent.type: '<b>|#|</b> Talento'
+dishonored.roll.test: Test di Abilità
+dishonored.roll.weapon.damage: '<b>|#|</b> Danno'
+dishonored.settings.hints.chaosPermissionLevel: Chi dovrebbe essere autorizzato a modificare la traccia del caos?
+dishonored.settings.hints.maxNumberOfExperience: Il massimo numero di esperienza che può essere assegnata ad un personaggio è 30 come predefinita. Qualsiasi punto altre il 50 diventa pressoché illeggibile.
+dishonored.settings.hints.momentumPermissionLevel: Chi dovrebbe essere autorizzato a modificare la traccia del momentum?
+dishonored.settings.hints.multipleComplications: Il manuale base dichiara \"Ogni dado con un risultato di 20 causa una complicazione\". Questo è leggermente poco chiaro anche a partire dalla versione 8 del PDF - probabilmente a causa della probabilità molto bassa. Abilitando questa opzione i ruoli potranno visualizzare \"Ci sono state x complicazioni\" se si sono ottenuti più 20. Disabilitando questa opzione verrà visualizzata una singola complicazione.
+dishonored.settings.hints.send2ActorPermissionLevel: Verrà creato un PNG a partire dal contatto, a chi dovrebbe essere consentito vedere e utilizzare questa funzionalità?
+dishonored.settings.names.chaosPermissionLevel: Ruolo Giocatore Traccia del Caos
+dishonored.settings.names.maxNumberOfExperience: Quantità massima di Esperienza
+dishonored.settings.names.momentumPermissionLevel: Ruolo Giocatore Traccia del Momentum
+dishonored.settings.names.multipleComplications: Complicazioni Multiple
+dishonored.settings.names.send2ActorPermissionLevel: Ruolo Giocatore Send2Actor
+dishonored.titles.createItem: Crea Oggetto
+dishonored.titles.deleteItem: Elimina Oggetto
+dishonored.titles.editItem: Modifica Oggetto
+dishonored.tracker.chaos: Caos
+dishonored.tracker.momentum: Momentum
+TYPES.Actor.character: Personaggio
+TYPES.Actor.npc: PNG
+TYPES.Item.armor: Armatura
+TYPES.Item.bonecharm: Amuleto d' Osso
+TYPES.Item.contact: Contatto
+TYPES.Item.focus: Focus
+TYPES.Item.item: Oggetto
+TYPES.Item.power: Potere
+TYPES.Item.talent: Talento
+TYPES.Item.truth: Verità
+TYPES.Item.weapon: Arma
