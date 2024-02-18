@@ -19,7 +19,7 @@ dishonored.actor.belonging.weapon.burn: Incendiaria
 dishonored.actor.belonging.weapon.concealed: Occultabile
 dishonored.actor.belonging.weapon.damage: Danno
 dishonored.actor.belonging.weapon.distant: Distante
-dishonored.actor.belonging.weapon.dmg: Dmg
+dishonored.actor.belonging.weapon.dmg: Danno
 dishonored.actor.belonging.weapon.melee: Corpo a Corpo
 dishonored.actor.belonging.weapon.messy: Caotica
 dishonored.actor.belonging.weapon.mine: Mina
@@ -93,28 +93,28 @@ dishonored.migration.begin_migration: Esecuzione degli aggiornamenti dei dati pe
 dishonored.migration.begin_schema: Applicazione dello schema di aggiornamenti per Dishonored v{version}
 dishonored.migration.completed_migration: Conclusione degli aggiornamenti dei dati per Dishonored
 dishonored.migration.completed_schema: Conclusione dell' applicazione dello schema degli aggiornamenti per Dishonored v{version}
-dishonored.notifications.armorAlreadyEquipped: Il personaggio attuale ha già un' armatura equipaggiata! Non fare niente.
-dishonored.notifications.armorAlreadyEquippedNew: Il personaggio attuale ha già un' armatura equipaggiata! Aggiungerla come non equipaggiata.
-dishonored.notifications.helmetAlreadyEquipped: Il personaggio attuale ha già un elmo equipaggiato! Non fare niente.
-dishonored.notifications.macroActor: Per favore fornisci un personaggio alla macro!
+dishonored.notifications.armorAlreadyEquipped: Il personaggio attuale ha già un' armatura equipaggiata! Non succede nulla.
+dishonored.notifications.armorAlreadyEquippedNew: Il personaggio attuale ha già un' armatura equipaggiata! Aggiunta come non equipaggiata.
+dishonored.notifications.helmetAlreadyEquipped: Il personaggio attuale ha già un elmo equipaggiato! Non succede nulla.
+dishonored.notifications.macroActor:
 dishonored.notifications.macroDiceGreater: Non puoi tirare più di cinque dadi!
 dishonored.notifications.macroDiceLess: Devi tirare almeno un dado!
 dishonored.notifications.macroFocus: Un Focus non può essere inferiore ad 1!
-dishonored.notifications.macroSkill: Per favore fornisci un' abilità alla macro!
+dishonored.notifications.macroSkill:
 dishonored.notifications.macroStyle: Per favore fornisci uno stile alla macro!
 dishonored.notifications.sendToActor: Un PNG con il nome <b>{name}</b> è stato creato!
-dishonored.notifications.tooManyBonecharms: Il personaggio attuale ha 3 amuleti d' osso equipaggiati! Non fare niente.
-dishonored.notifications.tooManyBonecharmsNew: Il personaggio attuale ha 3 amuleti d' osso equipaggiati! Aggiungere come non equipaggiato.
+dishonored.notifications.tooManyBonecharms: Il personaggio attuale ha 3 amuleti d' osso equipaggiati! Non succede nulla.
+dishonored.notifications.tooManyBonecharmsNew: Il personaggio attuale ha 3 amuleti d' osso equipaggiati! Aggiunto come non equipaggiato.
 dishonored.roll.armor.protect: '<b>|#|</b> Protezione'
 dishonored.roll.complication: C'è stata una complicazione!
 dishonored.roll.complicationPlural: 'Ci sono state |#| complicazioni!'
 dishonored.roll.contact.relation: '<b>|#|</b> Relazione con Contatto'
-dishonored.roll.focus.rating: 'Focus con Grado di <b>|#|</b>'
+dishonored.roll.focus.rating: 'Focus con Grado <b>|#|</b>'
 dishonored.roll.html.focus: Focus
 dishonored.roll.html.target: Bersaglio
 dishonored.roll.item.quantity: "|#|x Oggetti"
 dishonored.roll.item.value: "|#| Monete"
-dishonored.roll.power.mana: 'Costa <b>|#|</b> Mana ad uso'
+dishonored.roll.power.mana: 'Costa <b>|#|</b> Mana ad utilizzo'
 dishonored.roll.power.rune: '<b>|#|</b> Rune'
 dishonored.roll.success: Successo
 dishonored.roll.successPlural: Successi
@@ -122,15 +122,15 @@ dishonored.roll.talent.type: '<b>|#|</b> Talento'
 dishonored.roll.test: Test di Abilità
 dishonored.roll.weapon.damage: '<b>|#|</b> Danno'
 dishonored.settings.hints.chaosPermissionLevel: Chi dovrebbe essere autorizzato a modificare la traccia del caos?
-dishonored.settings.hints.maxNumberOfExperience: Il massimo numero di esperienza che può essere assegnata ad un personaggio. 30 è predefinita, qualsiasi punto altre il 50 diventa pressoché illeggibile.
+dishonored.settings.hints.maxNumberOfExperience: Il massimo numero di esperienza che può essere assegnata ad un personaggio è 30 come predefinita. Qualsiasi punto altre il 50 diventa pressoché illeggibile.
 dishonored.settings.hints.momentumPermissionLevel: Chi dovrebbe essere autorizzato a modificare la traccia del momentum?
 dishonored.settings.hints.multipleComplications: Il manuale base dichiara \"Ogni dado con un risultato di 20 causa una complicazione\". Questo è leggermente poco chiaro anche a partire dalla versione 8 del PDF - probabilmente a causa della probabilità molto bassa. Abilitando questa opzione i ruoli potranno visualizzare \"Ci sono state x complicazioni\" se si sono ottenuti più 20. Disabilitando questa opzione verrà visualizzata una singola complicazione.
-dishonored.settings.hints.send2ActorPermissionLevel: Verrà creato un NPC a partire dal contatto, a chi dovrebbe essere consentito vedere e utilizzare questa funzionalità?
-dishonored.settings.names.chaosPermissionLevel: Traccia del Caos Ruolo Giocatore
+dishonored.settings.hints.send2ActorPermissionLevel: Verrà creato un PNG a partire dal contatto, a chi dovrebbe essere consentito vedere e utilizzare questa funzionalità?
+dishonored.settings.names.chaosPermissionLevel: Ruolo Giocatore Traccia del Caos
 dishonored.settings.names.maxNumberOfExperience: Quantità massima di Esperienza
-dishonored.settings.names.momentumPermissionLevel: Traccia del Momentum Ruolo Giocatore
+dishonored.settings.names.momentumPermissionLevel: Ruolo Giocatore Traccia del Momentum
 dishonored.settings.names.multipleComplications: Complicazioni Multiple
-dishonored.settings.names.send2ActorPermissionLevel: Send2Actor User Role
+dishonored.settings.names.send2ActorPermissionLevel: Ruolo Giocatore Send2Actor
 dishonored.titles.createItem: Crea Oggetto
 dishonored.titles.deleteItem: Elimina Oggetto
 dishonored.titles.editItem: Modifica Oggetto
