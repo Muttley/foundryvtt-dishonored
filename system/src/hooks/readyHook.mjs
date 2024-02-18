@@ -1,4 +1,4 @@
-import DishonoredMigrationRunner from "../migrations/DishonoredMigrationRunner";
+import DishonoredMigrationRunner from "../migrations/DishonoredMigrationRunner.mjs";
 import registerSocketEvents from "../socket.mjs";
 
 export const readyHook = {
