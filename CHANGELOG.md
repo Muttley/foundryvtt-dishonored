@@ -1,3 +1,10 @@
+# v1.2.0
+
+## Bugfixes
+- [#26] Incorrect heading on Contacts list of Biography information
+
+---
+
 # v1.1.0
 
 ## Enhancements
