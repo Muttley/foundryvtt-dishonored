@@ -4,6 +4,7 @@
 - [#26] Incorrect heading on Contacts list of Biography information
 
 ## Chores
+- [#27] Ensure compatibility with Foundry v12
 - [#29] globalThis.mergeObject must now be accessed via foundry.utils.mergeObject *(Foundry v12 compatibility)*
 - [#30] Math.clamped is deprecated in favor of Math.clamp *(Foundry v12 compatibility)*
 - [#34] CONST.CHAT_MESSAGE_STYLES.ROLL is deprecated in favor of defining rolls directly in ChatMessage#rolls *(Foundry v12 compatibility)*
