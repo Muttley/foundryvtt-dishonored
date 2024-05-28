@@ -3,6 +3,15 @@
 ## Bugfixes
 - [#26] Incorrect heading on Contacts list of Biography information
 
+## Chores
+- [#29] globalThis.mergeObject must now be accessed via foundry.utils.mergeObject *(Foundry v12 compatibility)*
+- [#30] Math.clamped is deprecated in favor of Math.clamp *(Foundry v12 compatibility)*
+- [#34] CONST.CHAT_MESSAGE_STYLES.ROLL is deprecated in favor of defining rolls directly in ChatMessage#rolls *(Foundry v12 compatibility)*
+- [#35] CONST.CHAT_MESSAGE_TYPES is deprecated in favor of CONST.CHAT_MESSAGE_STYLES *(Foundry v12 compatibility)*
+- [#36] async option for Roll#evaluate has been removed *(Foundry v12 compatibility)*
+- [#37] globalThis.duplicate must now be accessed via foundry.utils.duplicate *(Foundry v12 compatibility)*
+- [#38] The {{select}} handlebars helper is deprecated in favor of using the {{selectOptions}} helper *(Foundry v12 compatibility)*
+
 ---
 
 # v1.1.0

@@ -41,4 +41,10 @@ export default function registerHandlebarsHelpers() {
 		return CONFIG.DISHONORED[arg1][arg2] ? CONFIG.DISHONORED[arg1][arg2] : arg2;
 	});
 
+	Handlebars.registerHelper("select", function(selected, options) {
+		const escapedValue = RegExp.escape(Handlebars.escapeExpression(selected));
+		const rgx = new RegExp(` value=["']${escapedValue}["']`);
+		const html = options.fn(this);
+		return html.replace(rgx, "$& selected");
+	});
 }

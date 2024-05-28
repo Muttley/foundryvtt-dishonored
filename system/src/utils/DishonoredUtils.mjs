@@ -4,6 +4,19 @@ export default class DishonoredUtils {
 		return Math.max(min, Math.min(max, value));
 	}
 
+	static foundryMinVersion(version) {
+		const majorVersion = parseInt(game.version.split(".")[0]);
+		return majorVersion >= version;
+	}
+
+	static getMessageStyles() {
+		const messageStyles = this.foundryMinVersion(12)
+			? CONST.CHAT_MESSAGE_STYLES
+			: CONST.CHAT_MESSAGE_TYPES;
+
+		return messageStyles;
+	}
+
 	// If this is a new release, show the release notes to the GM the first time
 	// they login
 	static async showNewReleaseNotes() {

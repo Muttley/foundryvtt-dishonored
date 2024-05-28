@@ -25,7 +25,7 @@ export class DishonoredRoll {
 		// Define r as our dice roll we want to perform (1d20, 2d20, 3d20, 4d20
 		// or 5d20). We will then roll it.
 		r = new Roll(`${dicePool}d20`);
-		let rollPromise = r.evaluate({async: true});
+		let rollPromise = r.evaluate();
 		await rollPromise.then(function() {
 			// Now for each dice in the dice pool we want to check what the individual result was.
 			for (i = 0; i < dicePool; i++) {
@@ -117,7 +117,7 @@ export class DishonoredRoll {
                     </div>
                 </div>
             </div>`;
-		this.sendToChat(CONST.CHAT_MESSAGE_TYPES.ROLL, speaker, html, r, flavour);
+		this.sendRollToChat(speaker, html, r, flavour);
 	}
 
 	async performItemRoll(item, speaker) {
@@ -137,7 +137,7 @@ export class DishonoredRoll {
 		this.genericItemTemplate(
 			item.img, item.name, item.system.description, variable, valueTag
 		).then(
-			html => this.sendToChat(CONST.CHAT_MESSAGE_TYPES.OTHER, speaker, html)
+			html => this.sendToChat(dishonored.utils.getMessageStyles().OTHER, speaker, html)
 		);
 	}
 
@@ -149,7 +149,7 @@ export class DishonoredRoll {
 		this.genericItemTemplate(
 			item.img, item.name, item.system.description, variable
 		).then(
-			html => this.sendToChat(CONST.CHAT_MESSAGE_TYPES.OTHER, speaker, html)
+			html => this.sendToChat(dishonored.utils.getMessageStyles().OTHER, speaker, html)
 		);
 	}
 
@@ -158,7 +158,7 @@ export class DishonoredRoll {
 		this.genericItemTemplate(
 			item.img, item.name, item.system.description
 		).then(
-			html => this.sendToChat(CONST.CHAT_MESSAGE_TYPES.OTHER, speaker, html)
+			html => this.sendToChat(dishonored.utils.getMessageStyles().OTHER, speaker, html)
 		);
 	}
 
@@ -167,7 +167,7 @@ export class DishonoredRoll {
 		this.genericItemTemplate(
 			item.img, item.name, item.system.description
 		).then(
-			html => this.sendToChat(CONST.CHAT_MESSAGE_TYPES.OTHER, speaker, html)
+			html => this.sendToChat(dishonored.utils.getMessageStyles().OTHER, speaker, html)
 		);
 	}
 
@@ -199,7 +199,7 @@ export class DishonoredRoll {
 		this.genericItemTemplate(
 			item.img, item.name, item.system.description, variable, tags
 		).then(
-			html => this.sendToChat(CONST.CHAT_MESSAGE_TYPES.OTHER, speaker, html)
+			html => this.sendToChat(dishonored.utils.getMessageStyles().OTHER, speaker, html)
 		);
 	}
 
@@ -220,7 +220,7 @@ export class DishonoredRoll {
 		this.genericItemTemplate(
 			item.img, item.name, item.system.description, variable, valueTag
 		).then(
-			html => this.sendToChat(CONST.CHAT_MESSAGE_TYPES.OTHER, speaker, html)
+			html => this.sendToChat(dishonored.utils.getMessageStyles().OTHER, speaker, html)
 		);
 	}
 
@@ -232,7 +232,7 @@ export class DishonoredRoll {
 		this.genericItemTemplate(
 			item.img, item.name, item.system.description, variable
 		).then(
-			html => this.sendToChat(CONST.CHAT_MESSAGE_TYPES.OTHER, speaker, html)
+			html => this.sendToChat(dishonored.utils.getMessageStyles().OTHER, speaker, html)
 		);
 	}
 
@@ -244,7 +244,7 @@ export class DishonoredRoll {
 		this.genericItemTemplate(
 			item.img, item.name, item.system.description, variable
 		).then(
-			html => this.sendToChat(CONST.CHAT_MESSAGE_TYPES.OTHER, speaker, html)
+			html => this.sendToChat(dishonored.utils.getMessageStyles().OTHER, speaker, html)
 		);
 	}
 
@@ -265,7 +265,7 @@ export class DishonoredRoll {
 		this.genericItemTemplate(
 			item.img, item.name, item.system.description, variablePrompt, tags
 		).then(
-			html => this.sendToChat(CONST.CHAT_MESSAGE_TYPES.OTHER, speaker, html)
+			html => this.sendToChat(dishonored.utils.getMessageStyles().OTHER, speaker, html)
 		);
 	}
 
@@ -296,6 +296,24 @@ export class DishonoredRoll {
 		return html;
 	}
 
+	async sendRollToChat(speaker, content, roll, flavour) {
+		// Send's Chat Message to foundry, if items are missing they will appear
+		// as false or undefined and this not be rendered.
+		const chatData = {
+			content: content,
+			flavor: flavour,
+			roll: roll,
+			rollMode: game.settings.get("core", "rollMode"),
+			sound: "sounds/dice.wav",
+			speaker: ChatMessage.getSpeaker({ scene: null, actor: speaker }),
+			user: game.user.id,
+		};
+
+		ChatMessage.create(chatData).then(msg => {
+			return msg;
+		});
+	}
+
 	async sendToChat(type, speaker, content, roll, flavour) {
 		// Send's Chat Message to foundry, if items are missing they will appear
 		// as false or undefined and this not be rendered.
@@ -305,14 +323,6 @@ export class DishonoredRoll {
 			type: type,
 			user: game.user.id,
 		};
-
-		// Only play the dice sound if there are actually dice being rolled
-		if (type === CONST.CHAT_MESSAGE_TYPES.ROLL) {
-			chatData.flavor = flavour;
-			chatData.roll = roll;
-			chatData.rollMode = game.settings.get("core", "rollMode");
-			chatData.sound = "sounds/dice.wav";
-		}
 
 		ChatMessage.create(chatData).then(msg => {
 			return msg;

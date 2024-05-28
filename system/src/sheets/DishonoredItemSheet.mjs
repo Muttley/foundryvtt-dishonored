@@ -2,7 +2,7 @@ export default class DishonoredItemSheet extends ItemSheet {
 
 	/** @override */
 	static get defaultOptions() {
-		return mergeObject(super.defaultOptions, {
+		return foundry.utils.mergeObject(super.defaultOptions, {
 			classes: ["dishonored", "sheet", "item"],
 			width: 565,
 			height: 480,

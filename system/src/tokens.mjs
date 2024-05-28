@@ -8,7 +8,7 @@ export default function installTokenBarShim() {
 			val = Number(data.max - data.value);
 		}
 
-		const pct = Math.clamped(val, 0, data.max) / data.max;
+		const pct = Math.clamp(val, 0, data.max) / data.max;
 
 		let h = Math.max(canvas.dimensions.size / 12, 8);
 
