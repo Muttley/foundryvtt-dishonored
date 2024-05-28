@@ -2,7 +2,7 @@ export default class DishonoredBaseActorSheet extends ActorSheet {
 
 	/** @override */
 	static get defaultOptions() {
-		return mergeObject(super.defaultOptions, {
+		return foundry.utils.mergeObject(super.defaultOptions, {
 			width: 700,
 			height: 800,
 			tabs: [{
@@ -47,7 +47,7 @@ export default class DishonoredBaseActorSheet extends ActorSheet {
 			event.preventDefault();
 			const header = event.currentTarget;
 			const type = header.dataset.type;
-			const data = duplicate(header.dataset);
+			const data = foundry.utils.duplicate(header.dataset);
 			const name = `${game.i18n.format("dishonored.actor.item.adjectiveNew")} ${type.charAt(0).toUpperCase()}${type.slice(1)}`;
 
 			const itemData = {
@@ -162,7 +162,7 @@ export default class DishonoredBaseActorSheet extends ActorSheet {
 		context.inventory = await this._prepareInventory();
 		context.isCharacter = this.actor.type === "character";
 		context.isNPC = this.actor.type === "npc";
-		context.system = duplicate(context.data.system);
+		context.system = foundry.utils.duplicate(context.data.system);
 
 		context.notesHTML = await TextEditor.enrichHTML(
 			this.actor.system.notes,
@@ -222,7 +222,7 @@ export default class DishonoredBaseActorSheet extends ActorSheet {
 		const itemCategories = {};
 
 		for (const item of this.actor.items) {
-			const itemCopy = duplicate(item);
+			const itemCopy = foundry.utils.duplicate(item);
 
 			if (!Object.hasOwn(itemCategories, itemCopy.type)) {
 				itemCategories[itemCopy.type] = [];
