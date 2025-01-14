@@ -1,5 +1,5 @@
 dishonored.actor.abilities.mana: Mana Points
-dishonored.actor.abilities.title: Abilities
+dishonored.actor.abilities.title: Habilidades
 dishonored.actor.belonging.armor.protect: Protección
 dishonored.actor.belonging.armor.protection: Protección
 dishonored.actor.belonging.armor.title: Armadura
@@ -138,7 +138,7 @@ dishonored.titles.editItem: Edit Item
 dishonored.tracker.chaos: Caos
 dishonored.tracker.momentum: Momentum
 TYPES.Actor.character: Character
-TYPES.Actor.npc: NPC
+TYPES.Actor.npc: PNJ
 TYPES.Item.armor: Armor
 TYPES.Item.bonecharm: Bonecharm
 TYPES.Item.contact: Contact
