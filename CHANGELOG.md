@@ -1,3 +1,13 @@
+# v1.3.0
+
+## Chores
+- [#42] Merged Spanish translation updates from Crowdin
+- [#43] Remove support for Foundry v11
+
+**NOTE:** This release marks the end of support for FoundryVTT v11 and requires FoundryVTT v12
+
+---
+
 # v1.2.0
 
 ## Bugfixes
