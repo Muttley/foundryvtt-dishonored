@@ -3,6 +3,8 @@
 ## Chores
 - [#42] Merged Spanish translation updates from Crowdin
 - [#43] Remove support for Foundry v11
+- [#44] Update node and package versions used during build process
+- [#45] Update build scripts to use latest GitHub packages
 
 **NOTE:** This release marks the end of support for FoundryVTT v11 and requires FoundryVTT v12
 
