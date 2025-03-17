@@ -100,6 +100,18 @@
 			"path": "i18n/it.json"
 		}
 	],
+	"flags": {
+		"hotReload": {
+			"extensions": [
+				"css", "hbs", "json"
+			],
+			"paths": [
+				"css",
+				"i18n",
+				"templates"
+			]
+		}
+	},
 	"gridDistance": 5,
 	"gridUnits": "ft",
 	"primaryTokenAttribute": "stress",
