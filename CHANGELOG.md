@@ -1,3 +1,13 @@
+# v1.3.1
+
+## Chores
+- [#48] Added French as a supported i18n language
+- [#] Remove usage of deprecated `gridDistance` and `gridUnits` settings in `system.json`
+
+*Many thanks to **Coukaratcha** for their work on the French translation*
+
+---
+
 # v1.3.0
 
 ## Chores
