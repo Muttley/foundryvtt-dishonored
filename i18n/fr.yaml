@@ -133,8 +133,8 @@ dishonored.settings.names.momentumPermissionLevel: Rôle de la jauge d\'Impulsio
 dishonored.settings.names.multipleComplications: Multiples complications
 dishonored.settings.names.send2ActorPermissionLevel: Rôle du Send2Actor
 dishonored.titles.createItem: Créer l\'item
-dishonored.titles.deleteItem: Supprimer l\'item
-dishonored.titles.editItem: Modifier l\'item
+dishonored.titles.deleteItem: Supprimer l'item
+dishonored.titles.editItem: Modifier l'item
 dishonored.tracker.chaos: Chaos
 dishonored.tracker.momentum: Impulsion
 TYPES.Actor.character: Personnage
