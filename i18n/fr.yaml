@@ -2,18 +2,18 @@ dishonored.actor.abilities.mana: Points de Mana
 dishonored.actor.abilities.title: Aptitudes
 dishonored.actor.belonging.armor.protect: Protection
 dishonored.actor.belonging.armor.protection: Protection
-dishonored.actor.belonging.armor.title: Nom d\'armure
-dishonored.actor.belonging.bonecharm.title: Nom du charme d\'os
-dishonored.actor.belonging.collectable.bonecharm: Charme d\'os
+dishonored.actor.belonging.armor.title: Nom d'armure
+dishonored.actor.belonging.bonecharm.title: Nom du charme d'os
+dishonored.actor.belonging.collectable.bonecharm: Charme d'os
 dishonored.actor.belonging.collectable.coin: Pièces
 dishonored.actor.belonging.collectable.rune: Runes
 dishonored.actor.belonging.other.qty: Qté
 dishonored.actor.belonging.other.quantity: Quantité
-dishonored.actor.belonging.other.title: Nom d\'item
+dishonored.actor.belonging.other.title: Nom d'item
 dishonored.actor.belonging.title: Possessions
 dishonored.actor.belonging.weapon.armorpierce: Perforante
 dishonored.actor.belonging.weapon.awkward: Peu maniable
-dishonored.actor.belonging.weapon.blast: Rayon d\'effet
+dishonored.actor.belonging.weapon.blast: Rayon d'effet
 dishonored.actor.belonging.weapon.block: Parade
 dishonored.actor.belonging.weapon.burn: Incendiaire
 dishonored.actor.belonging.weapon.concealed: Dissimulation
@@ -26,15 +26,15 @@ dishonored.actor.belonging.weapon.mine: Mine
 dishonored.actor.belonging.weapon.nearby: Proche
 dishonored.actor.belonging.weapon.rangeddistant: Longue portée
 dishonored.actor.belonging.weapon.rangednearby: Courte portée
-dishonored.actor.belonging.weapon.title: Nom d\'arme
+dishonored.actor.belonging.weapon.title: Nom d'arme
 dishonored.actor.biography.title: Biographie
 dishonored.actor.character.age: Âge
 dishonored.actor.character.archetype: Archétype
-dishonored.actor.character.experience: Jauge d\'expérience
+dishonored.actor.character.experience: Jauge d'expérience
 dishonored.actor.character.firstTruth: Première Vérité
-dishonored.actor.character.momentum: Jauge d\'Impulsion
+dishonored.actor.character.momentum: Jauge d'Impulsion
 dishonored.actor.character.name: Nom
-dishonored.actor.character.outlook: Outlook
+dishonored.actor.character.outlook: Tempérament
 dishonored.actor.character.secondTruth: Seconde Vérité
 dishonored.actor.character.stress: Jauge de Stress
 dishonored.actor.character.truth: Vérité
@@ -88,24 +88,24 @@ dishonored.contact.relation.great: Harmonieuse
 dishonored.contact.relation.neutral: Neutre
 dishonored.contact.relation.poor: Tendue
 dishonored.item.armor.helmet: Est un casque ?
-dishonored.item.contact.send2actor: Envoyer à l\'acteur
+dishonored.item.contact.send2actor: Envoyer à l'acteur
 dishonored.item.truth: Vérité
 dishonored.migration.begin_migration: Mises à jour de données pour Dishonored en cours
 dishonored.migration.begin_schema: Application des mises à jour pour Dishonored schéma v{version} en cours
 dishonored.migration.completed_migration: Mises à jour de données pour Dishonored terminée
 dishonored.migration.completed_schema: Application des mises à jour pour Dishonored schéma v{version} terminée
-dishonored.notifications.armorAlreadyEquipped: L\'acteur sélectionné a déjà une armure équipée ! Rien à faire.
-dishonored.notifications.armorAlreadyEquippedNew: L\'acteur sélectionné a déjà une armure équipée ! Adding as unequipped. Ajouté sans l\'équiper.
-dishonored.notifications.helmetAlreadyEquipped: L\'acteur sélectionné a déjà un casque équipé ! Rien à faire.
+dishonored.notifications.armorAlreadyEquipped: L'acteur sélectionné a déjà une armure équipée ! Rien à faire.
+dishonored.notifications.armorAlreadyEquippedNew: L'acteur sélectionné a déjà une armure équipée ! Ajouté sans l'équiper.
+dishonored.notifications.helmetAlreadyEquipped: L'acteur sélectionné a déjà un casque équipé ! Rien à faire.
 dishonored.notifications.macroActor: Veuillez fournir un acteur à la macro !
 dishonored.notifications.macroDiceGreater: Il est impossible de lancer plus de cinq dés !
 dishonored.notifications.macroDiceLess: Il faut lancer au moins un dé !
-dishonored.notifications.macroFocus: La valeur de spécialité est d\'au moins 1 !
+dishonored.notifications.macroFocus: La valeur de spécialité est d'au moins 1 !
 dishonored.notifications.macroSkill: Veuillez fournir une compétence à la macro !
 dishonored.notifications.macroStyle: Veuillez fournir un style à la macro !
-dishonored.notifications.sendToActor: Un PNJ portant le nom <b>{name}</b> vient d\'être créé !
-dishonored.notifications.tooManyBonecharms: L\'acteur sélectionné a déjà 3 charmes d\'os équippés ! Rien à faire.
-dishonored.notifications.tooManyBonecharmsNew: L\'acteur sélectionné a déjà 3 charmes d\'os équippés ! Ajouté sans l\'équiper.
+dishonored.notifications.sendToActor: Un PNJ portant le nom <b>{name}</b> vient d'être créé !
+dishonored.notifications.tooManyBonecharms: L'acteur sélectionné a déjà 3 charmes d'os équipés ! Rien à faire.
+dishonored.notifications.tooManyBonecharmsNew: L'acteur sélectionné a déjà 3 charmes d'os équipés ! Ajouté sans l'équiper.
 dishonored.roll.armor.protect: '<b>|#|</b> Protection'
 dishonored.roll.complication: Il y a eu une complication !
 dishonored.roll.complicationPlural: 'Il y a eu |#| complications !'
@@ -115,7 +115,7 @@ dishonored.roll.html.focus: Spécialité
 dishonored.roll.html.target: Cible
 dishonored.roll.item.quantity: "|#|x Items"
 dishonored.roll.item.value: "|#| Pièces"
-dishonored.roll.power.mana: 'Coute <b>|#|</b> Points de Mana pour l\''utiliser'
+dishonored.roll.power.mana: 'Coute <b>|#|</b> Points de Mana pour l''utiliser'
 dishonored.roll.power.rune: '<b>|#|</b> Runes'
 dishonored.roll.success: Succès
 dishonored.roll.successPlural: Succès
@@ -123,24 +123,24 @@ dishonored.roll.talent.type: '<b>|#|</b> Talent'
 dishonored.roll.test: Test de compétence
 dishonored.roll.weapon.damage: '<b>|#|</b> Dégâts'
 dishonored.settings.hints.chaosPermissionLevel: Qui a la permission de modifier la jauge de Chaos ?
-dishonored.settings.hints.maxNumberOfExperience: Nombre maximal de points d\'expérience qui peuvent être donnés à un personnage. 30 par défaut, toute valeur supérieure à 50 est presque illisible.
-dishonored.settings.hints.momentumPermissionLevel: Qui a la permission de modifier la jauge d\'Impulsion ?
-dishonored.settings.hints.multipleComplications: Le livre de règles stipule que \"Tout dé dont le résultat est 20 provoque une complication.\" Cette règle est soumise à interprétation due à la faible propabilité que plusieurs dés donnent un résultat de 20. Activer cette option permet d\'afficher \"Il y a eu x complications\" si plusieurs 20 sont obtenus. Désactiver cette option ne déclenchera qu\'une seule complication, peu importe le nombre de 20 obtenus.
-dishonored.settings.hints.send2ActorPermissionLevel: Le type d\'item contact a la possibilité de créer un PNJ. Qui a la permission de voir et d\'utiliser cette fonctionalité ?
+dishonored.settings.hints.maxNumberOfExperience: Nombre maximal de points d'expérience qui peuvent être donnés à un personnage. 30 par défaut, toute valeur supérieure à 50 est presque illisible.
+dishonored.settings.hints.momentumPermissionLevel: Qui a la permission de modifier la jauge d'Impulsion ?
+dishonored.settings.hints.multipleComplications: Le livre de règles stipule que \"Tout dé dont le résultat est 20 provoque une complication.\" Cette règle est soumise à interprétation due à la faible probabilité que plusieurs dés donnent un résultat de 20. Activer cette option permet d'afficher \"Il y a eu x complications\" si plusieurs 20 sont obtenus. Désactiver cette option ne déclenchera qu\'une seule complication, peu importe le nombre de 20 obtenus.
+dishonored.settings.hints.send2ActorPermissionLevel: Le type d\'item contact a la possibilité de créer un PNJ. Qui a la permission de voir et d\'utiliser cette fonctionnalité ?
 dishonored.settings.names.chaosPermissionLevel: Rôle de la jauge de Chaos
-dishonored.settings.names.maxNumberOfExperience: Valeur maximale de la jauge d\'expérience
-dishonored.settings.names.momentumPermissionLevel: Rôle de la jauge d\'Impulsion
+dishonored.settings.names.maxNumberOfExperience: Valeur maximale de la jauge d'expérience
+dishonored.settings.names.momentumPermissionLevel: Rôle de la jauge d'Impulsion
 dishonored.settings.names.multipleComplications: Multiples complications
 dishonored.settings.names.send2ActorPermissionLevel: Rôle du Send2Actor
-dishonored.titles.createItem: Créer l\'item
-dishonored.titles.deleteItem: Supprimer l\'item
-dishonored.titles.editItem: Modifier l\'item
+dishonored.titles.createItem: Créer l'item
+dishonored.titles.deleteItem: Supprimer l'item
+dishonored.titles.editItem: Modifier l'item
 dishonored.tracker.chaos: Chaos
 dishonored.tracker.momentum: Impulsion
 TYPES.Actor.character: Personnage
 TYPES.Actor.npc: PNJ
 TYPES.Item.armor: Armure
-TYPES.Item.bonecharm: Charme d\'os
+TYPES.Item.bonecharm: Charme d'os
 TYPES.Item.contact: Contact
 TYPES.Item.focus: Spécialité
 TYPES.Item.item: Item
