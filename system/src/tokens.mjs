@@ -1,7 +1,7 @@
 export default function installTokenBarShim() {
 	// Code taken from FFG Star Wars which also flips their health system! (Plus
 	// I like the increasing height that it implements)
-	Token.prototype._drawBar = function(number, bar, data) {
+	foundry.canvas.placeables.Token.prototype._drawBar = function(number, bar, data) {
 		let val = Number(data.value);
 
 		if (data.attribute === "stress") {
