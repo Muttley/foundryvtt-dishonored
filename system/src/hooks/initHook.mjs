@@ -6,8 +6,8 @@ import * as sheets from "../sheets/_module.mjs";
 import { DishonoredHooks } from "../system/DishonoredHooks.mjs";
 import { DishonoredRoll } from "../system/DishonoredRoll.mjs";
 
+import DishonoredMomentumTracker from "../apps/DishonoredMomentumTracker.mjs";
 import DishonoredRollDialog from "../apps/DishonoredRollDialog.mjs";
-import DishonoredTracker from "../apps/DishonoredTracker.mjs";
 import DishonoredUtils from "../utils/DishonoredUtils.mjs";
 import Logger from "../utils/Logger.mjs";
 
@@ -28,7 +28,7 @@ export async function initHook() {
 		logger: Logger,
 		roll: new DishonoredRoll(),
 		rollDialog: DishonoredRollDialog,
-		tracker: new DishonoredTracker(),
+		tracker: new DishonoredMomentumTracker(),
 		utils: DishonoredUtils,
 	};
 
@@ -55,20 +55,24 @@ function registerDocumentClasses() {
 }
 
 function registerDocumentSheets() {
-	Actors.unregisterSheet("core", ActorSheet);
+	foundry.documents.collections.Actors.registerSheet(
+		"dishonored",
+		sheets.DishonoredCharacterSheet,
+		{
+			types: ["character"],
+			makeDefault: true,
+		}
+	);
 
-	Actors.registerSheet("dishonored", sheets.DishonoredCharacterSheet, {
-		types: ["character"],
-		makeDefault: true,
-	});
+	foundry.documents.collections.Actors.registerSheet(
+		"dishonored",
+		sheets.DishonoredNPCSheet,
+		{ types: ["npc"] }
+	);
 
-	Actors.registerSheet("dishonored", sheets.DishonoredNPCSheet, {
-		types: ["npc"],
-	});
-
-	Items.unregisterSheet("core", ItemSheet);
-
-	Items.registerSheet("dishonored", sheets.DishonoredItemSheet, {
-		makeDefault: true,
-	});
+	foundry.documents.collections.Items.registerSheet(
+		"dishonored",
+		sheets.DishonoredItemSheet,
+		{ makeDefault: true }
+	);
 }

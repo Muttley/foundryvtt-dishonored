@@ -1,4 +1,5 @@
-export default class DishonoredItemSheet extends ItemSheet {
+export default class DishonoredItemSheet
+	extends foundry.appv1.sheets.ItemSheet {
 
 	/** @override */
 	static get defaultOptions() {
@@ -59,7 +60,8 @@ export default class DishonoredItemSheet extends ItemSheet {
 
 		context.cssClass += ` ${this.item.type}`;
 
-		context.descriptionHTML = await TextEditor.enrichHTML(
+		const textEditor = foundry.applications.ux.TextEditor.implementation;
+		context.descriptionHTML = await textEditor.enrichHTML(
 			this.item.system.description,
 			{
 				async: true,

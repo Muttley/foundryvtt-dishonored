@@ -1,9 +1,9 @@
-import DishonoredTracker from "./apps/DishonoredTracker.mjs";
+import DishonoredMomentumTracker from "./apps/DishonoredMomentumTracker.mjs";
 
 export default function registerSocketEvents() {
 	game.socket.on(`system.${SYSTEM_ID}`, event => {
 		if (event.type === "setCounter" && game.user.isGM) {
-			DishonoredTracker.setCounter(event.payload.value, event.payload.type);
+			DishonoredMomentumTracker.setCounter(event.payload.value, event.payload.type);
 		}
 
 		if (event.type === "updateCounter") {

@@ -3,6 +3,10 @@ export const SYSTEM_NAME = "Dishonored";
 
 export const DISHONORED = {};
 
+globalThis.systemPath = path => `systems/${SYSTEM_ID}/${path ?? ""}`;
+globalThis.templatePath = path => path ? systemPath(`templates/${path}.hbs`) : systemPath("templates");
+
+
 DISHONORED.DEFAULT_IMAGES = {
 	SYMBOL_TRANSPARENT: "/systems/FVTT-Dishonored/assets/images/dishonored-symbol-transparent.webp",
 	SYMBOL_WHITE: "/systems/FVTT-Dishonored/assets/images/dishonored-symbol-white.webp",

@@ -1,3 +1,26 @@
+# v1.4.0
+
+## Enhancements
+- [#54] Reduce actor/item sheet brightness to help with eye strain
+
+## Chores
+- [#52] Merged French translation updates from Crowdin
+- [#53] Momentum/Chaos tracker too large and overlaps Foundry v13 UI elements
+
+	* Redesigned and reimplemented as an ApplicationV2 based application that takes up less screen real estate
+
+- [#55] Accessing the global "ActorSheet" which is now namespaced under foundry.appv1.sheets.ActorSheet
+- [#56] Accessing the global "ItemSheet" which is now namespaced under foundry.appv1.sheets.ItemSheet
+- [#57] Accessing the global "Actors" which is now namespaced under foundry.documents.collections.Actors
+- [#58] Accessing the global "Items" which is now namespaced under foundry.documents.collections.Items
+- [#59] Update node modules used by build process
+- [#60] Accessing the global "loadTemplates" which is now namespaced under foundry.applications.handlebars.loadTemplates
+- [#61] Accessing the global "Token" which is now namespaced under foundry.canvas.placeables.Token
+- [#62] Accessing the global "Hotbar" which is now namespaced under foundry.applications.ui.Hotbar
+- [#63] Accessing the global "TextEditor" which is now namespaced under foundry.applications.ux.TextEditor.implementation
+
+---
+
 # v1.3.1
 
 ## Chores

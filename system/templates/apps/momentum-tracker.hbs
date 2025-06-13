@@ -1,0 +1,73 @@
+<form>
+	<div class="tracker-section">
+		<label>{{localize "dishonored.tracker.momentum"}}</label>
+		<div class="input-controls">
+			{{#if canEditMomentum}}
+				<a
+					class="momentum"
+					data-action="decrement"
+					data-resource="momentum"
+				>
+					<i class="fa-solid fa-minus"></i>
+				</a>
+			{{else}}
+				&nbsp;
+			{{/if}}
+			<input
+				class="momentum"
+				data-resource="momentum"
+				data-type="Number"
+				type="number"
+				value="{{momentum}}"
+				{{#unless canEditMomentum}}disabled{{/unless}}
+			>
+			{{#if canEditMomentum}}
+				<a
+					class="momentum"
+					data-action="increment"
+					data-resource="momentum"
+				>
+					<i class="fa-solid fa-plus"></i>
+				</a>
+			{{else}}
+				&nbsp;
+			{{/if}}
+		</div>
+	</div>
+	&nbsp;
+	<div class="tracker-section">
+		<label>{{localize "dishonored.tracker.chaos"}}</label>
+		<div class="input-controls">
+			{{#if canEditChaos}}
+				<a
+					class="chaos"
+					data-action="decrement"
+					data-resource="chaos"
+				>
+					<i class="fa-solid fa-minus"></i>
+				</a>
+			{{else}}
+				&nbsp;
+			{{/if}}
+			<input
+				class="chaos"
+				data-resource="chaos"
+				data-type="Number"
+				type="number"
+				value="{{chaos}}"
+				{{#unless canEditChaos}}disabled{{/unless}}
+			>
+			{{#if canEditChaos}}
+				<a
+					class="chaos"
+					data-action="increment"
+					data-resource="chaos"
+				>
+					<i class="fa-solid fa-plus"></i>
+				</a>
+			{{else}}
+				&nbsp;
+			{{/if}}
+		</div>
+	</div>
+</form>

@@ -1,7 +1,10 @@
+@use "global";
+@use "apps";
+
 .dishonored {
-	font-family: "EB Garamond";
+
 	.window-content {
-		background: #ffffff !important;
+		background: #e0e0e0 !important;
 		padding: 0;
 	}
 	.bold {
@@ -23,6 +26,7 @@
 	}
 	.btn {
 		background-color: #000000;
+		font-weight: bold;
 		color: #ffffff;
 		border-radius: 4px;
 		border: 1px solid #ffffff;
@@ -55,6 +59,7 @@
 				font-size: 8pt;
 				text-align: center;
 				background: rgb(255, 255, 255, 0.8);
+				font-weight: bold;
 
 				&.selected {
 					background: #191813;
@@ -78,7 +83,6 @@
 				flex: 1;
 				top: 0;
 				position: sticky;
-				background-color: #ffffff;
 				.background {
 					position: absolute;
 					&.left {
@@ -151,6 +155,7 @@
 				}
 				input {
 					font-size: 16pt;
+					font-weight: bold;
 					height: 30px;
 				}
 				select {
@@ -167,6 +172,7 @@
 						position: relative;
 						.title {
 							font-size: 14pt;
+							font-weight: bold;
 							padding-top: 8px;
 						}
 					}
@@ -196,6 +202,7 @@
 						.box {
 							height: 20px;
 							font-size: 10pt;
+							font-weight: bold;
 						}
 					}
 				}
@@ -335,34 +342,14 @@
 					}
 					&.notes {
 						margin: 0;
-						padding: 0 5%;
 						width: 100%;
 						top: 20%;
-						position: absolute;
 						overflow-y: auto;
-						height: 80%;
 						left: 0;
 						bottom: 0;
 						.notes {
 							height: 95%;
 							margin: 0;
-							.editor {
-								height: 100%;
-								margin: 0;
-								overflow: unset;
-								.tox {
-									height: 100% !important;
-									margin: 0;
-								}
-							}
-						}
-					}
-					.notes {
-						.editor {
-							.editor-content {
-								font-size: 16px;
-								overflow-y: unset;
-							}
 						}
 					}
 				}
@@ -480,15 +467,6 @@
 					}
 				}
 			}
-			.description {
-				height: calc(100% - 50px);
-				.editor {
-					height: 100%;
-					.tox {
-						height: 100% !important;
-					}
-				}
-			}
 			.contact {
 				.header-fields {
 					.row {
@@ -589,208 +567,11 @@
 						}
 					}
 				}
-			}
-		}
-	}
-	&.tracker {
-		position: absolute;
-		&.panel {
-			right: 304px;
-			bottom: 5px;
-			-webkit-transition: right 0.5s linear;
-			-moz-transition: right 0.5s linear;
-			-ms-transition: right 0.5s linear;
-			-o-transition: right 0.5s linear;
-			transition: right 0.5s linear;
-			&.tracker-collapsed {
-				right: 0px;
-				-webkit-transition: right 0.5s linear;
-				-moz-transition: right 0.5s linear;
-				-ms-transition: right 0.5s linear;
-				-o-transition: right 0.5s linear;
-				transition: right 0.5s linear;
-			}
-		}
-		&.button {
-			cursor: pointer;
-			&:hover {
-				text-shadow: 0 0 6px red;
-			}
-		}
-		&.chaos {
-			&.number {
-				border-radius: 70px;
-				width: 70px;
-				height: 69px;
-				bottom: 63px;
-				text-align: center;
-				right: 56px;
-				font-size: 45px;
-				z-index: 1;
-				border: none;
-				color: black;
-				font-family: "EB Garamond";
-				font-weight: bold;
-				text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-			}
-			&.increase {
-				bottom: 108px;
-				right: 11.5px;
-				font-size: 24px;
-				z-index: 1;
-				text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-			}
-			&.decrease {
-				bottom: 79px;
-				right: 9px;
-				font-size: 20px;
-				z-index: 1;
-				text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-			}
-			&.header {
-				right: 25px;
-				bottom: 0px;
-				color: #ffffff;
-				z-index: 1;
-			}
-		}
-		&.momentum {
-			&.header {
-				bottom: 25px;
-				right: 280px;
-				z-index: 1;
-				text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-			}
-			&.track {
-				position: relative;
-				&.item {
-					&.track-1 {
-						left: 42px;
-					}
-					&.track-2 {
-						left: calc(42px + 83px);
-					}
-					&.track-3 {
-						left: calc(42px + 83px + 83px);
-					}
-					&.track-4 {
-						left: calc(42px + 83px + 83px + 83px);
-					}
-					&.track-5 {
-						left: calc(42px + 83px + 83px + 83px + 83px);
-					}
-					&.track-6 {
-						left: calc(42px + 83px + 83px + 83px + 83px + 83px);
-					}
-					&.background {
-						position: absolute;
-						bottom: 8px;
-						pointer-events: none;
-						text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-						&.svg {
-							&:not(.disable):hover {
-								filter: drop-shadow(0 0 6px red);
-							}
-						}
-						&.slot {
-							pointer-events: auto;
-							stroke: white;
-							stroke-width: 2px;
-							fill: transparent;
-							z-index: 5;
-							cursor: pointer;
-						}
-					}
-					&.foreground {
-						position: absolute;
-						width: 83px;
-						display: inline;
-						text-align: center;
-						bottom: 8px;
-						z-index: 1;
-						font-size: 20px;
-						line-height: 20px;
-						font-weight: bold;
-						cursor: pointer;
-						text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-						&:not(.disable):hover {
-							filter: drop-shadow(0 0 6px red);
-						}
-					}
+				.dice-tooltip {
+					font-size: 16px;
+					font-weight: 600;
 				}
 			}
 		}
-		&.header {
-			font-weight: bold;
-			text-align: center;
-			font-size: 2em;
-			text-transform: uppercase;
-		}
 	}
-	&.logo {
-		position: absolute;
-		display: block;
-		margin-right: 0;
-		left: 74px;
-		top: 31px;
-		z-index: 61;
-		color: #000;
-		text-decoration: none;
-		img {
-			width: 30px;
-			border: none;
-		}
-		div {
-			font-size: 10px;
-			line-height: 0.1;
-			text-align: center;
-		}
-	}
-}
-@font-face {
-	font-family: 'EB Garamond';
-	font-style: normal;
-	font-weight: 400;
-	src: local(''),
-       url('../fonts/eb-garamond-v14-latin-ext_latin-regular.woff2') format('woff2'),
-       url('../fonts/eb-garamond-v14-latin-ext_latin-regular.woff') format('woff');
-	font-family: 'EB Garamond';
-	font-style: normal;
-	font-weight: 700;
-	src: local(''),
-       url('../fonts/eb-garamond-v14-latin-ext_latin-700.woff2') format('woff2'),
-       url('../fonts/eb-garamond-v14-latin-ext_latin-700.woff') format('woff');
-	font-family: 'EB Garamond';
-	font-style: italic;
-	font-weight: 400;
-	src: local(''),
-       url('../fonts/eb-garamond-v14-latin-ext_latin-italic.woff2') format('woff2'),
-       url('../fonts/eb-garamond-v14-latin-ext_latin-italic.woff') format('woff');
-	font-family: 'EB Garamond';
-	font-style: italic;
-	font-weight: 700;
-	src: local(''),
-       url('../fonts/eb-garamond-v14-latin-ext_latin-700italic.woff2') format('woff2'),
-       url('../fonts/eb-garamond-v14-latin-ext_latin-700italic.woff') format('woff');
-}
-::-webkit-scrollbar-thumb {
-	border-radius: 0px;
-	background: #ffffff;
-	border: 1px solid #000000;
-}
-::-webkit-scrollbar-track {
-	box-shadow: 0 0 1px #000 inset;
-	border-radius: 0px;
-	background: black;
-}
-.notification {
-	&.error {
-		&.permanent {
-			text-align: center;
-		}
-	}
-}
-.dishonored.sheet.actor .tab .section .notes .editor .editor-content h1, h2 {
-	line-height: 1.2em;
-	border-color: #4b4a44;
 }
