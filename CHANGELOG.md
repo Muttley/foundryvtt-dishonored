@@ -13,6 +13,7 @@
 - [#56] Accessing the global "ItemSheet" which is now namespaced under foundry.appv1.sheets.ItemSheet
 - [#57] Accessing the global "Actors" which is now namespaced under foundry.documents.collections.Actors
 - [#58] Accessing the global "Items" which is now namespaced under foundry.documents.collections.Items
+- [#59] Update node modules used by build process
 
 ---
 
