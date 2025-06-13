@@ -16,6 +16,7 @@
 - [#59] Update node modules used by build process
 - [#60] Accessing the global "loadTemplates" which is now namespaced under foundry.applications.handlebars.loadTemplates
 - [#61] Accessing the global "Token" which is now namespaced under foundry.canvas.placeables.Token
+- [#62] Accessing the global "Hotbar" which is now namespaced under foundry.applications.ui.Hotbar
 
 ---
 
