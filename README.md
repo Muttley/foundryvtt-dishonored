@@ -17,6 +17,8 @@ All copyright assets included in the system are used with the explicit consent o
 
 *Many thanks to Modiphius for allowing the inclusion of many player facing item compendiums, which contain various classes of item from the core rulebook.*
 
+---
+
 ## License
 
 Foundry VTT: Limited License Agreement for module development.
