@@ -60,7 +60,8 @@ export default class DishonoredItemSheet
 
 		context.cssClass += ` ${this.item.type}`;
 
-		context.descriptionHTML = await TextEditor.enrichHTML(
+		const textEditor = foundry.applications.ux.TextEditor.implementation;
+		context.descriptionHTML = await textEditor.enrichHTML(
 			this.item.system.description,
 			{
 				async: true,

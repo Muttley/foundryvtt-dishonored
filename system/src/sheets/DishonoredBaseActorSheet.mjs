@@ -165,7 +165,8 @@ export default class DishonoredBaseActorSheet
 		context.isNPC = this.actor.type === "npc";
 		context.system = foundry.utils.duplicate(context.data.system);
 
-		context.notesHTML = await TextEditor.enrichHTML(
+		const textEditor = foundry.applications.ux.TextEditor.implementation;
+		context.notesHTML = await textEditor.enrichHTML(
 			this.actor.system.notes,
 			{
 				async: true,
