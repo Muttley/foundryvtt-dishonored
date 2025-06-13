@@ -1,3 +1,15 @@
+# v1.4.0
+
+## Enhancements
+- [#54] Reduce actor/item sheet brightness to help with eye strain
+
+## Chores
+- [#53] Momentum/Chaos tracker too large and overlaps Foundry v13 UI elements
+
+	* Redesigned and reimplemented as an ApplicationV2 based application that takes up less screen real estate
+
+---
+
 # v1.3.1
 
 ## Chores

@@ -1,0 +1,24 @@
+.dishonored {
+
+	.editor {
+		height: 100%;
+		margin: 0;
+		overflow: unset;
+		.tox {
+			height: 100% !important;
+			margin: 0;
+		}
+		.editor-content {
+			margin: 8px;
+			font-size: 1.5em;
+			line-height: 1.2em;
+			overflow-y: unset;
+
+			h1, h2 {
+				line-height: 1.2em;
+				border-color: #4b4a44;
+			}
+		}
+	}
+
+}
