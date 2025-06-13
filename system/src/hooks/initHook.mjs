@@ -70,7 +70,7 @@ function registerDocumentSheets() {
 		{ types: ["npc"] }
 	);
 
-	Items.registerSheet(
+	foundry.documents.collections.Items.registerSheet(
 		"dishonored",
 		sheets.DishonoredItemSheet,
 		{ makeDefault: true }
