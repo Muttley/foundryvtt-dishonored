@@ -55,20 +55,24 @@ function registerDocumentClasses() {
 }
 
 function registerDocumentSheets() {
-	Actors.unregisterSheet("core", ActorSheet);
+	foundry.documents.collections.Actors.registerSheet(
+		"dishonored",
+		sheets.DishonoredCharacterSheet,
+		{
+			types: ["character"],
+			makeDefault: true,
+		}
+	);
 
-	Actors.registerSheet("dishonored", sheets.DishonoredCharacterSheet, {
-		types: ["character"],
-		makeDefault: true,
-	});
+	foundry.documents.collections.Actors.registerSheet(
+		"dishonored",
+		sheets.DishonoredNPCSheet,
+		{ types: ["npc"] }
+	);
 
-	Actors.registerSheet("dishonored", sheets.DishonoredNPCSheet, {
-		types: ["npc"],
-	});
-
-	Items.unregisterSheet("core", ItemSheet);
-
-	Items.registerSheet("dishonored", sheets.DishonoredItemSheet, {
-		makeDefault: true,
-	});
+	Items.registerSheet(
+		"dishonored",
+		sheets.DishonoredItemSheet,
+		{ makeDefault: true }
+	);
 }

@@ -11,6 +11,7 @@
 
 - [#55] Accessing the global "ActorSheet" which is now namespaced under foundry.appv1.sheets.ActorSheet
 - [#56] Accessing the global "ItemSheet" which is now namespaced under foundry.appv1.sheets.ItemSheet
+- [#57] Accessing the global "Actors" which is now namespaced under foundry.documents.collections.Actors
 
 ---
 
