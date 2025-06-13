@@ -23,7 +23,7 @@ Foundry VTT: Limited License Agreement for module development.
 
 All copyright assets used with explicit consent from Modiphius Entertainment. The system developers hold no claims to underlying copyrighted assets.
 
-## Thanks to
+## Thanks
 
 - This system uses various icons from [Game-icons.net](https://game-icons.net/), including icons created by **Caro Asercion**, [DarkZaitzev](https://www.deviantart.com/darkzaitzev), [Delapouite](https://delapouite.com/), [Lorc](https://lorcblog.blogspot.com/), **Pierre Leduc** and **Skoll**
 
