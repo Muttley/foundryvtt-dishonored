@@ -9,6 +9,9 @@
 
 	* Redesigned and reimplemented as an ApplicationV2 based application that takes up less screen real estate
 
+- [#55] Accessing the global "ActorSheet" which is now namespaced under foundry.appv1.sheets.ActorSheet
+- [#56] Accessing the global "ItemSheet" which is now namespaced under foundry.appv1.sheets.ItemSheet
+
 ---
 
 # v1.3.1

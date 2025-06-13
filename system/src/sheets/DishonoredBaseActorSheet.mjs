@@ -1,4 +1,5 @@
-export default class DishonoredBaseActorSheet extends ActorSheet {
+export default class DishonoredBaseActorSheet
+	extends foundry.appv1.sheets.ActorSheet {
 
 	/** @override */
 	static get defaultOptions() {

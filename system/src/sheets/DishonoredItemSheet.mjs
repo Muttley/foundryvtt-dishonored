@@ -1,4 +1,5 @@
-export default class DishonoredItemSheet extends ItemSheet {
+export default class DishonoredItemSheet
+	extends foundry.appv1.sheets.ItemSheet {
 
 	/** @override */
 	static get defaultOptions() {
