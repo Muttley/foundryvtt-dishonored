@@ -2,7 +2,7 @@
 	"id": "FVTT-Dishonored",
 	"title": "Dishonored: The Roleplaying Game",
 	"description": "An unofficial system for playing the Dishonored RPG from Modiphius Entertainment Ltd.",
-	"version": "1.4.0",
+	"version": "1.4.1",
 	"compatibility": {
 		"minimum": "13",
 		"verified": "13"
