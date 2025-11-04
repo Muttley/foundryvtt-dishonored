@@ -1,16 +1,17 @@
 .dishonored .momentum-tracker {
 	display: flex;
-	position: fixed;
+	// position: fixed;
 	width: min-content;
 	height: max-content;
 
 	margin: 0;
 	padding: 4px;
-
-	bottom: 160px;
-	left: 50%;
-	transform: translate(-50%, 0%);
-	z-index: 29;
+	margin-bottom: 16px;
+	pointer-events: all;
+	// bottom: 160px;
+	// left: 50%;
+	// transform: translate(-50%, 0%);
+	// z-index: 29;
 
 	background-color: white;
 	color: black;
@@ -24,7 +25,7 @@
 	label {
 		font-family: "EB Garamond", serif;
 		font-weight: bold;
-		font-size: 1.8em;
+		font-size: 1.6em;
 		padding: 0;
 		margin: 0;
 		color: black;
@@ -36,7 +37,7 @@
 	.input-controls {
 		display: flex;
 		flex-direction: row;
-		font-size: 1.5em;
+		font-size: 1.3em;
 		text-align: center;
 
 

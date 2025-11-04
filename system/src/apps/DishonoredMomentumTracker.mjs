@@ -70,8 +70,6 @@ export default class DishonoredMomentumTracker
 	 * @param type  Type of counter, "momentum" or "chaos"
 	 */
 	static async setCounter(value, type) {
-		DishonoredMomentumTracker.checkCounterUpdate(value, type);
-
 		if (!game.user.isGM) {
 			game.socket.emit(`system.${SYSTEM_ID}`, {
 				type: "setCounter",
@@ -104,6 +102,29 @@ export default class DishonoredMomentumTracker
 		const {resource} = event.target.parentElement?.dataset ?? undefined;
 
 		if (resource) DishonoredMomentumTracker.changeCounter(-1, resource);
+	}
+
+
+	async _onFirstRender(context, options) {
+		await super._onFirstRender(context, options);
+
+		// Move the element into the ui-left stack.
+		const uiBottom = document.querySelector("#ui-bottom");
+		if (!uiBottom) {
+			conan.error("Error: Could not find #ui-bottom!");
+			return;
+		}
+
+		const hotbar = uiBottom.querySelector("#hotbar");
+		if (!hotbar) {
+			conan.warn(
+				"Could not find hotbar HTML element, appending Momentum Tracker to end of ui-bottom."
+			);
+			uiBottom.appendChild(this.element);
+			return;
+		}
+
+		uiBottom.insertBefore(this.element, hotbar);
 	}
 
 

@@ -1,3 +1,13 @@
+# v1.4.1
+
+## Bugfixes
+- [#67] Momentum and Chaos cannot be reduced to zero using decrement controls
+
+## Enhancements
+- [#69] Tidy up positioning of momentum/threat tracker
+
+---
+
 # v1.4.0
 
 ## Enhancements
