@@ -1,5 +1,5 @@
 import fs from "fs";
-import { markdown } from "markdown";
+import { marked } from "marked";
 
 import stringify from "json-stable-stringify-pretty";
 
@@ -9,7 +9,7 @@ const JOURNAL_JSON =
 
 function compileReleaseNotes(cb) {
 	const source = fs.readFileSync(NOTES_SRC_PATH, "utf8");
-	const html = markdown.toHTML(source);
+	const html = marked.parse(source);
 
 	const journalJson = fs.readFileSync(JOURNAL_JSON, "utf8");
 	const journal = JSON.parse(journalJson);
