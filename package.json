@@ -12,24 +12,23 @@
 		"packs": "gulp compilePacks"
 	},
 	"devDependencies": {
-		"@rollup/plugin-node-resolve": "^16.0.1",
-		"chalk": "^5.4.1",
+		"@rollup/plugin-node-resolve": "^16.0.3",
+		"chalk": "^5.6.2",
 		"classic-level": "^3.0.0",
-		"del": "^8.0.0",
-		"glob": "^11.0.3",
+		"del": "^8.0.1",
+		"glob": "^13.0.6",
 		"gulp": "^5.0.1",
-		"gulp-eslint-new": "^2.4.0",
+		"gulp-eslint-new": "^2.6.2",
 		"gulp-if": "^3.0.0",
 		"gulp-sass": "^6.0.1",
 		"gulp-yaml": "^2.0.4",
-		"jest": "^30.0.0",
 		"json-stable-stringify-pretty": "^1.2.0",
-		"markdown": "^0.5.0",
+		"marked": "^18.0.3",
 		"merge-stream": "^2.0.0",
 		"nedb-promises": "^6.2.3",
-		"rollup": "^4.43.0",
-		"sass": "^1.89.2",
-		"yaml": "^2.8.0",
+		"rollup": "^4.60.2",
+		"sass": "^1.99.0",
+		"yaml": "^2.8.4",
 		"yargs": "^18.0.0"
 	}
 }
