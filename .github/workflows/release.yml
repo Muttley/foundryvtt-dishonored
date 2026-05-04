@@ -42,9 +42,9 @@ jobs:
       uses: ncipollo/release-action@v1
       with:
         allowUpdates: false
-        name: release-${{ env.systemVersion }}
-        draft: false
-        prerelease: false
-        token: ${{ secrets.GITHUB_TOKEN }}
         artifacts: './system/system.json, ./dishonored.zip'
+        draft: false
+        name: release-${{ env.systemVersion }}
+        prerelease: true
+        token: ${{ secrets.GITHUB_TOKEN }}
         tag: release-${{ env.systemVersion }}
