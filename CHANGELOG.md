@@ -1,3 +1,12 @@
+# v1.4.2
+
+## Chores
+- [#73] Validate with FoundryVTT v14
+- [#74] Update node and modules to latest
+- [#75] Fix deprecation warnings in GitHub build actions
+
+---
+
 # v1.4.1
 
 ## Bugfixes
